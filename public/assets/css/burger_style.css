@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-image: url("../img/tablecloth.jpg");
+}
+
+h1 {
+    text-align: center;
+}
+
+.burgerImg {
+    width: 400px;
+    height: 250px;
+    margin: 15px, 45px, 15px, 45px;
+}
+
+li {
+    margin: 10px;
+}
+
+.available {
+    margin: 10px;
+    padding: 15px
+}
+
+.addBurger {
+    margin: 10px;
+}
