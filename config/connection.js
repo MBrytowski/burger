@@ -2,13 +2,13 @@ var mysql = require("mysql");
 var connection = mysql.createConnection(process.env.JAWSDB_URL);
 connection.connect();
 
-// var connection = mysql.createConnection({
-//   host: "d13xat1hwxt21t45.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-//   port: 3306,
-//   user: "upnzjiuzbn72a3vd",
-//   password: "mxd8shhzvvwc8l9w",
-//   database: "zr392agqgzqwu3xq"
-// });
+var connection = mysql.createConnection({
+  host: "d13xat1hwxt21t45.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+  port: 3306,
+  user: "upnzjiuzbn72a3vd",
+  password: "mxd8shhzvvwc8l9w",
+  database: "zr392agqgzqwu3xq"
+});
 
 // Make connection.
 // connection.connect(function(err) {
